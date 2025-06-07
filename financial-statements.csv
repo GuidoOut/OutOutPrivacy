@@ -1,11 +1,11 @@
 MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;Reward (gold);Reward (item ID);PreviousDialogue;NextDialogue;WrongAnswer;Comment
 1;0;Welcome to the hunt;0;;;;;1;2;;This field is not used in the game but can be used by us to take notes about the scavenger hunt
-2;0;<b><j><s=2>Hold it right there!</s></j></b><br><br>You are now entering the Prins Hendrikkade. A notorious admiral that hunts pirates lives in this street. Go find his housenumber for me so I can take my revenge. His portrait is said to be displayed on the wall above the window.;1;87;Enter house number;;;1;4;3;
-3;0;No no no... That's where your mom lives. I know that number far too well. Now try finding that bastard admirals house again;0;;;;;2;2;;
-4;0;That looks like the right house. Now don't dally and keep moving. We don't want anybody to spot you here. <br><br>The next location I want you to go to can be described as ...;0;;;15;;2;5;;
-5;;;;;;;;;;;
-6;;;;;;;;;;;
-7;;;;;;;;;;;
+2;0;<b><j><s=2>Hold it right there!</s></j></b><br><br>You are now entering the Prins Hendrikkade. A notorious admiral that hunts pirates lives in this street. Go find his housenumber for me so I can take my revenge. His portrait is said to be displayed on the wall above the window.;1;87;Enter house number;15;;1;4;3;
+3;0;No no no... That's where your mom lives. I know that number far too well. Now try finding that bastard admirals house again;0;;;;;;2;;
+4;0;That looks like the right house. Now don't dally and keep moving. We don't want anybody to spot you here. <br><br>The next location I want you to go to can be described as ...;0;;;;;2;5;;
+5;1;This is a multiple choice test;2;C;A|B|C|D;10;;4;7;6;
+6;1;Wrong answer;0;;;;;;5;;
+7;1;Correct;0;;;;;;5;;
 8;;;;;;;;;;;
 9;;;;;;;;;;;
 10;;;;;;;;;;;
