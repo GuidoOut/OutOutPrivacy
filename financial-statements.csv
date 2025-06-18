@@ -1,20 +1,33 @@
-MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;Reward (gold);Reward (item ID);PreviousDialogue;NextDialogue;WrongAnswer;Comment
-1;0;I see you have made it to the starting location. <br><br>Now to prove that you are worthy of a spot on my crew you have to collect some <w>intel</w> for me.;0;;;;;1;2;;This field is not used in the game but can be used by us to take notes about the scavenger hunt
-2;0;First one is an easy one. <br><br>Here at the marine fort we are going to do a <j>raid</j>. But I need to know how many doors we can force ourselves into at the same time from the water to catch our enemies by surprise.;0;;;;;1;3;;
-3;0;How many <c=red>doors</c> are there on the water level on the street side?;1;5;Number of doors;10;;2;5;4;
-4;0;No that doesn't seem right. Check again;0;;;;;;3;;
-5;0;<j>Good...</j> <b><br>That information will serve me well when we prepare our attack. Now move across the <c=red>Kattenburgerbrug</c> along the water following the harbor. When you see my favorite tattoo-shop across the street on the corner you will cross the street.;0;;;;;3;6;;
-6;0;Ah that takes me back to the time I got an anchor tattooed on my<w>......</w> <br><br><s=0.6>Never mind…</s> just go. If you have trouble finding it just look for some grapes above the door.;0;;;;;5;7;;
-7;0;You are now at the Prins Hendrikkade. <br><br>A famous admiral lives here that is hunting us pirates at any chance he gets. I need to know which house he lives in. ;0;;;;;6;8;;
-8;0;Just keep moving along the harbor in the direction you were walking before. But look out for this scums house and give me the number of his address.;1;87;House number;10;;7;10;9;
-9;0;No that's where your mom lives. I know that number far too well...;0;;;;;;7;;
-10;0;Perfect. I will send some people around and kidnap his family while he is out on the sea. Thank you. <br> <br> Now keep on walking further down the harbor.;0;;;;;7;11;;
-11;0;It is said a famous explorer will leave on a grand voyage somewhere around here. I need some new weapons and rations for my own ships and I bet his ships will be filled to the brim before he sets sail. <br><br>Find out the date he will set sail so we can plunder it the day before.;0;;;;;10;12;;
-12;0;Have you figured out the date of his departure already?;2;3;May 3 1610|March 12 1615|April 4 1609|June 9 1608;15;;11;14;13;
-13;0;I've heard other reports, so I'll have to check again with someone more ... reputable than you... Keep moving;0;;;;;;14;;
-14;0;That confirms my suspicions, we'll post a group of men here on that date;0;;;;;;15;;
-15;0;Now walk in the direction of De Waag.;0;;;;;12;16;;
-16;0;The masons will show you the way. Find the mason and enter the street he is facing. Now in this street take the first street on your port side. If you pass the gate of dragons you have gone to far. Now that you have entered this street go find the Old Sailor.;;;;;;;;;
-17;0;Now that you found the Old Sailor ...;;;;;;;;;
-18;0;You found the church. Now find ‘The Old Forge*’ and take that street BUT on the opposite side of the water.;;;;;;;;;
-19;0;In this street another famous Admiral lives. Give me his home address so I can plunder his riches.;;;;;;;;;
+MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (item ID);PreviousDialogue;NextDialogue;WrongAnswer;Skippable;RecordDecision;Comment
+1;0;I see you have made it to the location. To prove that you are worthy of a spot on my crew you have to gather some intel for me. <br><br>What do you mean ‘How am I talking to you from a ship on the sea while you are in the city’? Are you seriously questioning this in a world full of wizards, demons and illusionist? <br><br> So please remind me;0;;;;;;;;;;
+2;0;The pirate life is about?;2;3;Becoming king of the pirates|Plundering every island you encounter|Following you blindly, captain|Burying treasure, drinking rum, forgetting where the treasure is;5;;1;4;3;;;
+3;0;Hrmmm, I think you still have much to learn and would have to start at the very bottom of my crew. Now back to your recruitment;0;;;;;;5;;;;
+4;0;Right. And never forget your place on a pirate ship, underneath the captain.;0;;;;;;5;;;;
+5;0;The first question is an easy one. Here at the Marine Fort (<I> or so called Scheepvaartmuseum</i>) we are going to do a raid. Since I don’t know what the surroundings look like I need you to tell me from which direction we could best attack the building.;0;;;;;;6;;;;
+6;0;From which side could we best attack the Marine fort?;2;4;North|East|South|West;10;;5;7;7;8;;
+7;0;Great. This info will be more than enough to show these pesky marines what will happen when you mess with the wrong pirate.;0;;;;;;9;;;;
+8;0;You are not helping me with a raid on the Marines? This is not a good start if you want to be part of my crew.;0;;;;;;9;;;;Consider if we need a skip button if it’s a multiple choice and people can just guess
+9;0;Now move on across the Kattenburgerbrug and walk along the water following the harbor. Before you cross the street of metal ships, wait a second and look around.;0;;;;;;10;;;;
+10;0;Someone told me Nobody has been spotted here. This concerns me as this could ruin all my plans. If you can you see Nobody please tell me from which direction they probably will come?;2;1;North|East|South|West;5;;;11;11;;;
+11;0;Now cross the street and keep walking along the harbor. When you see my Favorite tattoo shop on the corner across the street you will cross and go there. You can’t miss it. Just look for the building on the corner with grapes above the door.;0;;;;;;12;;;;
+12;;Checkpoint <br><br> Walk to the location and if you see these grapes continue.;3;;;;;11;13;;;;TO DO: Build checkpoint screen
+13;1;Hey watch where you’re going low life scum. How dare you walk in front of me: <s=1.2><j>the greatest monster hunter on the High Seas!</j></s> <br><br>Wait are you trying to be part of Gravy’s crew? How about you come join a real captain instead by helping me sabotage that old bag of bones.;0;;;;;12;14;;;;
+14;1;So how about it? Are you game or are you a wimpy little chicken?;2;1;Count me in my queen|Scram, go back to catching guppies;;;;15;16;;;
+15;1;Wonderful. Keep collecting coin from this freak and at the first opportunity you get, buy me a harpoon so I can sink his ship with him and all his cronies on it.;0;;;;;;17;;;;
+16;1;Mmm seems that old salty sea dog has you crawling on all fours for him already. Move. You are no use to me.;0;;;;;;17;;;;
+17;0;What happened? I couldn’t reach you for some reason. You weren’t trying to ignore me on purpose or talk to someone else did you? ‘Cause I can only reach you as long as you are focused on <I>my</i> voice alone.<br><br>Let’s get back to the task at hand, the tattoo shop. Ah, this shop takes me back to the time I got an anchor tattooed on my...... Never mind, just go. Let’s keep on walking down the Prins Hendrikkade for I need some intel here.;0;;;;;;18;;;;
+18;0;An famous admiral lives here in this street. He is hunting us pirates at any chance he gets. I need to know which house he lives in. Just keep moving along the harbor in the same direction you were walking in before. But look out for this worthless scums house and give me the number of his address. If you have to cross a street you have gone to far.;0;;;;;17;19;;;;
+19;0;What is the house number of the pirate hunting admiral?;1;131;House number;10;;18;20;20;;;Is this a correct or skip question? Or can you keep guessing until you get it right?
+20;0;Perfect. I will send some people around to kidnap his family while he is out on the sea. Thank you. Now keep on walking further down the harbor until you reach a tower. At this tower a famous explorer will set sail. ;0;;;;;;21;;;;
+21;;Checkpoint <br><br> Walk to the location and if you see this plaque continue.;3;;;;;20;22;;;;
+22;0;Now that we know the exact location and date of their voyage we will have to find a stowaway to sneak on board and sabotage the ship for us. I know the perfect person for the job who will do anything for a few coins. Walk to the old city gates in the distance called De Waag. He’s always hanging around there.;0;;;;;21;23;;;;
+23;;Checkpoint <br><br> When you are standing next to this building you have reached your destination.;0;;;;;;24;;;;
+24;2;Hi wanderer give me all your loot at once! <br><br>Wait. Gravy needs my help and you are one of his lackeys? Okay, okay, never mind the robbing. I don’t want any problems with Gravy. So what does he need from me?;2;1;Tell him;;;23;25;;;;
+25;2;Oke so he needs me to infiltrate a certain ship and at midnight lower some ropes from the deck so he and his men can climb aboard the ship? Sure, no problem for me. Its my specialization. I just need a disguise and your gold can definitely get me one. <br><br>Just find the merchant that walks these streets. He is always at different places and likes to talk in riddles and rhymes. He told me that to find him today, I would have to follow these instructions: <br><br> We come from the guild and are not guilty but gilded. We chase a rider that has lost his brother and is followed by his ghost. They ride towards the Temple and you can find me there. <br><br> Okay now go and get me a disguise. ;0;;;;;;26;;;;
+26;;What color is the temple?;1;Green;;;;;28;27;;;
+27;2;I see no temple of that color here;0;;;;;;26;;;;
+28;3;Well hello there. You found me, what a scare.<br>I’m shook but you look like you don’t care.<br>Is it trinkets you seek or maybe a potion?<br>Or maybe one of these skin care lotions.<br>Or wait is it flowers or jewels you seek?<br>You’re trying to court a fine lady this week?<br>Stop, don’t tell me. I know what you need.<br>A fresh pair of pants, it does look like you peed.<br>Don’t bother with jewels, you know I can tell,<br>You’ll never get lucky, my man, with that smell;0;;;;;;29;;;;
+29;3;Take a look at my wares;4;;1|2|3|4|5;;;;31;30;;;
+30;3;Nothing that tickles your fancy? What a shame. But only I am the one to blame.<br>That such an array of products doesn’t seem to.......... oh you buggered off already..;0;;;;;;32;;;;
+31;3;What a fine choice you made today;0;;;;;;32;;;;
+32;2;Great great. Now I can sneak aboard the ship and no one will know I’m even there. I will look just like one of them. Tnx. But now you do need to tell me something.;;;;;;;;;;;
