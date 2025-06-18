@@ -1,5 +1,5 @@
 MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (item ID);PreviousDialogue;NextDialogue;WrongAnswer;Skippable;RecordDecision;Comment
-1;0;I see you have made it to the location. To prove that you are worthy of a spot on my crew you have to gather some intel for me. <br><br>What do you mean ‘How am I talking to you from a ship on the sea while you are in the city’? Are you seriously questioning this in a world full of wizards, demons and illusionist? <br><br> So please remind me;0;;;;;;;;;;
+1;0;I see you have made it to the location. To prove that you are worthy of a spot on my crew you have to gather some intel for me. <br><br>What do you mean ‘How am I talking to you from a ship on the sea while you are in the city’? Are you seriously questioning this in a world full of wizards, demons and illusionist? <br><br> So please remind me;0;;;;;;2;;;;
 2;0;The pirate life is about?;2;3;Becoming king of the pirates|Plundering every island you encounter|Following you blindly, captain|Burying treasure, drinking rum, forgetting where the treasure is;5;;1;4;3;;;
 3;0;Hrmmm, I think you still have much to learn and would have to start at the very bottom of my crew. Now back to your recruitment;0;;;;;;5;;;;
 4;0;Right. And never forget your place on a pirate ship, underneath the captain.;0;;;;;;5;;;;
