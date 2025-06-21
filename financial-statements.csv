@@ -41,8 +41,8 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 40;0;Alright keep moving along this street until you find a famous pirate. His gold will show you the direction of the next street to move into. If you have to walk across the street you have gone too far;0;;;;;;41;;;;
 41;;Checkpoint <br><br> Do you see this?;3;;;;;;42;;;;
 42;4;Psst. Buddy. Yes you. Don’t look at that pub. You won’t find any rum there right now as they are closed. But you need some stuff? I got the best food and drinks money can buy. Believe me. If you had some of my drinks and food you will never feel the same again.;0;;;;;;43;;;;
-43;4;This is as fresh as it gets;4;;6|7|8;;;;;;47;;
-44;4;What do you mean it smells and isn’t fresh? I freshly caught it myself here in the canals. Ok ok… How about something else?;0;;;;;;43;;;;
+43;4;This is as fresh as it gets;4;;6|7|8;;;;44;;47;;
+44;4;NO REFUNDS, EAT AT YOUR OWN RISK!;0;;;;;;48;;;;
 45;4;Yes it the best milk around. It’s one of a kind. The chunks are proof of that. What do you mean the smell makes you sick? Alright sure. Choose something else then.;0;;;;;;43;;;;
 46;4;Mmm this soup has all the nutrients one could need on the seas. Yes those sea slugs and seaweed flies are part of the soup. What do you mean that’s disgusting? Ok ok… I don’t want any bad kelp reviews. Choose something else.;0;;;;;;43;;;;
 47;4;Ok ok. I’m sorry mister fancy pants. Sorry that none of my products meet the <w>standards</w> you are looking for. Fine… be like that.;0;;;;;;48;;;;
