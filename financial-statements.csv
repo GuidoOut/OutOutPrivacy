@@ -49,7 +49,6 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 48;4;What’s that? You are actually looking for some poison? Well maybe my brother has something for you. He specializes in creative concoctions. Go down this street, onto the square. To find him listen to these words carefully:<br><br> ‘Two howl together but one barks alone. Follow the danger into a hole in the stone.’ There in the hole you will find him.”;0;;;;;48;49;;;;
 49;;Checkpoint <br><br> ;3;;;;;49;50;;;;
 50;5;Well look what the cat dragged in… What are you doing in these parts all alone? Don’t you know its dangerous for kids to be playing on the streets at these times? But now that you are here maybe I can offer you some goodies as any stranger does on these streets.;4;9;9;;;;51;70;;;
-70;5;Hmm no I’m pretty sure Gravy asked for these cookies specifically. You don’t want to anger him do you?;0;;;;;;50;;;;
 51;0;Right thats it. Those poisoned cookies will be perfect to take that bird out.;0;;;;;;52;;;;
 52;;Checkpoint: All tasks are completed. Time to make up the balance and see how well you’ve served Gravy;3;;;;;;99;;;;
 53;0;Thank you for all you have done. You have shown yourself worthy of a spot on my crew. Come find me at this location and let’s have a selfie to celebrate this occasion.;0;;;;;;54;;;;
@@ -66,7 +65,8 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 64;6;Now find the eagle with your portrait on it! What do you see?;1;Snakes;What do you see?;;;63;66;65;;;
 65;6;Wrong, try again;0;;;;;;64;;;;
 66;6;Yes that’s right. You are nothing but a filthy snake! Only god can save you now with a miracle. Let’s see if you can even recognize one. Do you see a miracle item from god here? What is it?;1;Wafer;Miracle object;;;;68;67;;;
-67;6;Wrong, try again;;;;;;;66;;;;
-68;6;Well no wafer can safe you now. Let’s go meet the captain. He wants to look you in the eyes before we close them forever.;;;;;;;69;;;;
-69;;You have completed the adventure with shame. If you are first to reach Gravy, as punishment the runner up will receive 40% of your treasure. Take a screenshot of this screen, go to the following location and take a selfie with Gravy, post both your photo and the screenshot in the group app. <br><br> (52.370429, 4.893486);;;;;;;;;;;
+67;6;Wrong, try again;0;;;;;;66;;;;
+68;6;Well no wafer can safe you now. Let’s go meet the captain. He wants to look you in the eyes before we close them forever.;0;;;;;;69;;;;
+69;;You have completed the adventure with shame. If you are first to reach Gravy, as punishment the runner up will receive 40% of your treasure. Take a screenshot of this screen, go to the following location and take a selfie with Gravy, post both your photo and the screenshot in the group app. <br><br> (52.370429, 4.893486);0;;;;;;;;;;
+70;5;Hmm no I’m pretty sure Gravy asked for these cookies specifically. You don’t want to anger him do you?;0;;;;;;50;;;;
 999;Endings start at;53|55|61;;;;;;;;;;;
