@@ -3,7 +3,7 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 2;0;The pirate life is about?;2;3;Becoming king of the pirates|Plundering every island you encounter|Following you blindly, captain|Burying treasure, drinking rum, forgetting where the treasure is;5;;1;4;3;;;
 3;0;Hrmmm, I think you still have much to learn and would have to start at the very bottom of my crew. Now back to your recruitment;0;;;;;;5;;;;
 4;0;Right. And never forget your place on a pirate ship, underneath the captain.;0;;;;;;5;;;;
-5;0;The first question is an easy one. Here at the Marine Fort (<i> or so called Scheepvaartmuseum</i>) we are going to do a raid. Since I don’t know what the surroundings look like I need you to tell me from which direction we could best attack the building.;0;;;;;;6;;;;
+5;0;The first question is an easy one. Here at the Marine Fort, or so called Scheepvaartmuseum, we are going to do a raid. Since I don’t know what the surroundings look like I need you to tell me from which direction we could best attack the building.;0;;;;;;6;;;;
 6;0;From which side could we best attack the Marine fort?;2;4;North|East|South|West;10;;5;7;7;8;;
 7;0;Great. This info will be more than enough to show these pesky marines what will happen when you mess with the wrong pirate.;0;;;;;;9;;;;
 8;0;You are not helping me with a raid on the Marines? This is not a good start if you want to be part of my crew.;0;;;;;;9;;;;Consider if we need a skip button if it’s a multiple choice and people can just guess
@@ -15,7 +15,7 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 14;1;So how about it? Are you game or are you a wimpy little chicken?;2;1;Count me in my queen|Scram, go back to catching guppies;;;;15;16;;;
 15;1;Wonderful. Keep collecting coin from this freak and at the first opportunity you get, buy me a harpoon so I can sink his ship with him and all his cronies on it.;0;;;;;;17;;;;
 16;1;Mmm, seems like that old salty sea dog has you crawling on all fours for him already. Move. You are no use to me.;0;;;;;;17;;;;
-17;0;What happened? I couldn’t reach you for some reason. You weren’t trying to ignore me on purpose or talk to someone else did you? ‘Cause I can only reach you as long as you are focused on <I>my</i> voice alone.<br><br>Let’s get back to the task at hand, the tattoo shop. Ah, this shop takes me back to the time I got an anchor tattooed on my...... Never mind, just go. Let’s keep on walking down the Prins Hendrikkade for I need some intel here.;0;;;;;;18;;;;
+17;0;What happened? I couldn’t reach you for some reason. You weren’t trying to ignore me on purpose or talk to someone else did you? ‘Cause I can only reach you as long as you are focused on <i>my</i> voice alone.<br><br>Let’s get back to the task at hand, the tattoo shop. Ah, this shop takes me back to the time I got an anchor tattooed on my...... Never mind, just go. Let’s keep on walking down the Prins Hendrikkade for I need some intel here.;0;;;;;;18;;;;
 18;0;A famous admiral lives here in this street. He is hunting us pirates at any chance he gets. I need to know which house he lives in. Just keep moving along the harbor in the same direction you were walking in before. But look out for this worthless scums house and give me the number of his address. If you have to cross a street you have gone to far.;0;;;;;17;19;;;;
 19;0;What is the house number of the pirate hunting admiral?;1;131;House number;10;;18;20;20;;;Is this a correct or skip question? Or can you keep guessing until you get it right?
 20;0;Perfect. I will send some people around to kidnap his family while he is out on the sea. Thank you. Now keep on walking further down the harbor until you reach a tower. At this tower a famous explorer will set sail. ;0;;;;;;21;;;;
@@ -23,25 +23,25 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 22;0;Now that we know the exact location and date of their voyage we will have to find a stowaway to sneak on board and sabotage the ship for us. I know the perfect person for the job who will do anything for a few coins. <br><br>Walk to the old city gates in the distance called <c=red>De Waag</c>. He’s always hanging around there.;0;;;;;21;23;;;;
 23;;Checkpoint <br><br> When you are standing next to this building you have reached your destination.;0;;;;;;24;;;;
 24;2;Hi wanderer give me all your loot at once! <br><br>Wait. Gravy needs my help and you are one of his lackeys? Okay, okay, never mind the robbing. I don’t want any problems with Gravy. So what does he need from me?;2;1;Tell him;;;23;25;;;;
-25;2;Oke so he needs me to infiltrate a certain ship and at midnight lower some ropes from the deck so he and his men can climb aboard the ship? Sure, no problem for me. Its my specialization. I just need a disguise and your gold can definitely get me one. <br><br>Just find the merchant that walks these streets. He is always at different places and likes to talk in riddles and rhymes. He told me that to find him today, I would have to follow these instructions: <br><br> We come from the guild and are not guilty but gilded. We chase a rider that has lost his brother and is followed by his ghost. They ride towards the Temple and you can find me there. <br><br> Okay now go and get me a disguise. ;0;;;;;;26;;;;
-26;;What color is the temple?;1;Green;;;;;28;27;;;
+25;2;Ok so he needs me to infiltrate a certain ship and at midnight lower some ropes from the deck so he and his men can climb aboard the ship? Sure, no problem for me. Its my specialization. I just need a disguise and your gold can definitely get me one. <br><br>Just find the merchant that walks these streets. He is always at different places and likes to talk in riddles and rhymes.;0;;;;;;71;;;;
+26;;What color is the temple?;1;Green;;;;25;28;27;;;
 27;2;I see no temple of that color here;0;;;;;;26;;;;
 28;3;Well hello there. You found me, what a scare. I’m shook but you look like you don’t care.<br>Is it trinkets you seek or maybe a potion? Or maybe one of these skin care lotions.<br>Or wait is it flowers or jewels you seek? You’re trying to court a fine lady this week?<br>Stop, don’t tell me. I know what you need. A fresh pair of pants, it sure look like you peed.<br>Don’t bother with jewels—you know I can tell — you’ll never get lucky my man, with that smell…;0;;;;;;29;;;;
 29;3;Oh just some bits and bobs;4;;1|2|3|4|5;;;;31;30;;;
 30;3;Nothing that tickles your fancy? What a shame. But only I am the one to blame.<br>That such an array of products doesn’t seem to.......... oh you buggered off already..;0;;;;;;33;;;;
 31;3;What a fine choice you made today;0;;;;;;32;;;;
-32;2;Great. Now I can sneak aboard the ship and no one will know I’m even there because I look just like one of them. Thanks.<br><br> But now you do need to tell me something.;0;;;;;;33;;;;
-33;2;Where does this boat you talk about sail away from, and on which date?;2;2;9 april 1607|4 april 1609|5 april 1608|2 april 1610;10;;;35;;;;
+32;7;Great. Now I can sneak aboard the ship and no one will know I’m even there because I look just like one of them. Thanks.<br><br> But now you do need to tell me something.;0;;;;;;33;;;;
+33;7;Where does this boat you talk about sail away from, and on which date?;2;2;9 april 1607|4 april 1609|5 april 1608|2 april 1610;10;;;35;35;;;
 34;2;Wait you didn’t get me a disguise? How the hell do you think I can sneak on board now? Okay I’m done with you. You are trouble and I don’t want you to drag me down while Gravy still sees me as an ally. You are on your own mate.;0;;;;;;35;;;;
 35;0;Oh you’re back? Let’s keep it going. Now that we got this out of the way let’s finish one last problem I struggle with. An upstart called Puffin thinks she is so smart by going up into the skies so none of her enemies can reach her. Well she is nothing without her trusty scout Polly. So let’s get rid of that red pest. Let’s find someone who can supply us with some poison so we can take that bird out.;0;;;;;;36;;;;
-36;0;So let’s move. The masons of De Waag will show you the street to move forward to. *Remember you never walk back in the direction you came from or on a street you walked before.;0;;;;;;37;;;;
-37;0;Now in this street a young crew member of mine lives. Just turn port and move on until you meet his older brother. When you find his older brother you have to move and find <b><c=red>god's old smithery</c></b>;0;;;;;;38;;;;
+36;0;So let’s move. The masons of De Waag will show you the street to move forward to. <br><br><br><s=0.5><I>Remember: you never have to walk back in the direction you came from, or on a street you walked before.;0;;;;;;37;;;;
+37;0;Now in this street a young crew member of mine lives. Just turn port and move on until you meet his older brother. When you find his older brother you have to move and find god's old smithery <br><br><br> <s=0.5><i>Some translation from English to Dutch is required;0;;;;;;38;;;;
 38;0;If you have found god's old smithery move into that street but on the <c=red>opposite side</c> of the water.;0;;;;;;39;;;;
-39;0;Great in this street another Admiral lives. This bastard also took some of my ships. But most importantly these ships contained my rum!!! I want this bastards house burned down to the ground. Tell me his house number!;1;136;House number;10;;;40;;;;
+39;0;Great in this street another Admiral lives. This bastard also took some of my ships. But most importantly these ships contained my rum!!! I want this bastards house burned down to the ground. Tell me his house number!;1;136;House number;10;;;40;40;;;
 40;0;Alright keep moving along this street until you find a famous pirate. His gold will show you the direction of the next street to move into. If you have to walk across the street you have gone too far;0;;;;;;41;;;;
 41;;Checkpoint <br><br> Do you see this?;3;;;;;;42;;;;
 42;4;Psst. Buddy. Yes you. Don’t look at that pub. You won’t find any rum there right now as they are closed. But you need some stuff? I got the best food and drinks money can buy. Believe me. If you had some of my drinks and food you will never feel the same again.;0;;;;;;43;;;;
-43;4;This is as fresh as it gets;4;;6|7|8;;;;44;47;47;;
+43;4;This is as fresh as it gets;4;;6|7|8;;;;44;44;44;;
 44;4;NO REFUNDS, EAT AT YOUR OWN RISK!;0;;;;;;48;;;;
 45;4;Yes it the best milk around. It’s one of a kind. The chunks are proof of that. What do you mean the smell makes you sick? Alright sure. Choose something else then.;0;;;;;;43;;;;
 46;4;Mmm this soup has all the nutrients one could need on the seas. Yes those sea slugs and seaweed flies are part of the soup. What do you mean that’s disgusting? Ok ok… I don’t want any bad kelp reviews. Choose something else.;0;;;;;;43;;;;
@@ -53,7 +53,7 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 52;;Checkpoint: All tasks are completed. Time to make up the balance and see how well you’ve served Gravy;3;;;;;;99;;;;
 53;0;Thank you for all you have done. You have shown yourself worthy of a spot on my crew. Come find me at this location and let’s have a selfie to celebrate this occasion.;0;;;;;;54;;;;
 54;;You have completed the adventure with pride. Make a screenshot of this screen, go to the following location and take a selfie with Gravy, post both your photo and the screenshot in the group app. <br><br> (52.370429, 4.893486);0;;;;;;;;;;
-55;0;What is this? You didn’t obey my orders? How do you expect me to let you in my crew with disobedience like that! As punishment I have to send you to the bottom of the dungeon! Quickly move to the dungeon and we will speak there again when my anger has cooled down.;0;;;;;;56;;;;
+55;0;What is this? I hear you didn’t obey some of my orders. Now don’t play dumb with me, you know what you did… How do you expect me to let you in my crew with disobedience like that! As punishment I have to send you to the bottom of the dungeon! Quickly move to the dungeon and we will speak again when my anger has cooled down.;0;;;;;;56;;;;
 56;;"Checkpoint <br><br> When you reach the lions with the shields continue. ";3;;;;;55;57;;;;
 57;0;You are lucky that I am not in the city right now. I would’ve killed you right on the spot so you could join my crew… as an undead piece of crap. Now as punishment go find the eagle with the snakes. When you do, continue;0;;;;;56;58;;;;
 58;0;Good, you found them. The reason I brought you here is you need to look for a miracle in this street. Why? Cause you sure as hell need one right now.;1;Wafer;Miracle object;;;57;59;;;;
@@ -64,9 +64,18 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 63;;Checkpoint <br><br> When you reach the lions with the shields continue.;3;;;;;62;64;;;;
 64;6;Now find the eagle with your portrait on it! What do you see?;1;Snakes;What do you see?;;;63;66;65;;;
 65;6;Wrong, try again;0;;;;;;64;;;;
-66;6;Yes that’s right. You are nothing but a filthy snake! Only god can save you now with a miracle. Let’s see if you can even recognize one. Do you see a miracle item from god here? What is it?;1;Wafer;Miracle object;;;;68;67;;;
+66;6;Yes that’s right. You are nothing but a filthy snake! Only god can save you now with a miracle. Let’s see if you can even recognize one. Do you see a miracle from god here? What is it?;1;Wafer;Miracle object;;;;68;67;;;
 67;6;Wrong, try again;0;;;;;;66;;;;
 68;6;Well no wafer can safe you now. Let’s go meet the captain. He wants to look you in the eyes before we close them forever.;0;;;;;;69;;;;
-69;;You have completed the adventure with shame. If you are first to reach Gravy, as punishment the runner up will receive 40% of your treasure. Take a screenshot of this screen, go to the following location and take a selfie with Gravy, post both your photo and the screenshot in the group app. <br><br> (52.370429, 4.893486);0;;;;;;;;;;
-70;5;Hmm no I’m pretty sure Gravy asked for these cookies specifically. You don’t want to anger him do you?;0;;;;;;50;;;;
-999;Endings start at;53|55|61;;;;;;;;;;;
+69;;You have completed the adventure with shame. If you are first to reach Gravy, as punishment the runner up will receive 50% of your treasure. Take a screenshot of this screen, go to the following location and take a selfie with Gravy, post both your photo and the screenshot in the group app. <br><br> (52.370429, 4.893486);0;;;;;;;;;;
+70;5;You’re an odd one you know that? Asking me for poison and then not buying it when I offer it to you. Oh well…;0;;;;;;72;;;;
+71;2;He told me that to find him today, I would have to follow these instructions: <br><br> We come from the guild and are not guilty but gilded. We chase a rider that has lost his brother and is followed by his ghost. They ride towards the Temple and you can find me there. <br><br> Okay now go and get me a disguise. ;0;;;;;25;26;;;;
+72;0;Where are my cookies you fool?! Hrmph, you good for nothing barnacle…;0;;;;;;52;;;;
+73;0;What is this? I hear you didn’t obey some of my orders. Now don’t play dumb with me, you know what you did… How do you expect me to let you in my crew with disobedience like that! As punishment I have to send you to the bottom of the dungeon! Quickly move to the dungeon and we will speak again when my anger has cooled down.;0;;;;;;74;;;;
+74;;"Checkpoint <br><br> When you reach the lions with the shields continue. ";3;;;;;73;75;;;;
+75;0;You are lucky that I am not in the city right now. I would’ve killed you right on the spot so you could join my crew… as an undead piece of crap. Now as punishment go find the eagle with the snakes. When you do, continue;0;;;;;74;76;;;;
+76;0;Good, you found them. The reason I brought you here is you need to look for a miracle in this street. Why? Cause you sure as hell need one right now.;1;Wafer;Miracle object;;;75;77;;;;
+77;0;See. If you disobey me ever again you will need a priest and a wafer very soon. And never forget that. You are lucky I am short on manpower and beside that slip up you have done well. Now come find me at my location and let’s have a party, drink rum and take a selfie.”;0;;;;;;78;;;;
+78;;You have completed the adventure but Gravy could be prouder. If you are the first to reach Gravy, as punishment the runner up will get 40% of your treasure. Take a screenshot of this screen, go to the following location and take a selfie with Gravy, post both your photo and the screenshot in the group app. <br><br> (52.370429, 4.893486);0;;;;;;;;;;
+79;0;Incompetent…;0;;;;;;;;;;
+999;Endings start at;53|55|61|73|79;;;;;;;;;;;
