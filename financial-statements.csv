@@ -23,8 +23,8 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 22;0;Now that we know the exact location and date of their voyage we will have to find a stowaway to sneak on board and sabotage the ship for us. I know the perfect person for the job who will do anything for a few coins. <br><br>Walk to the old city gates in the distance called <c=red>De Waag</c>. He’s always hanging around there.;0;;;;;21;23;;;;
 23;;Checkpoint <br><br> When you are standing next to this building you have reached your destination.;3;;https://github.com/GuidoOut/OutOutPrivacy/blob/main/waag.jpg?raw=true;;;;24;;;;
 24;2;Hi wanderer give me all your loot at once! <br><br>Wait. Gravy needs my help and you are one of his lackeys? Okay, okay, never mind the robbing. I don’t want any problems with Gravy. So what does he need from me?;2;1;Tell him;;;23;25;;;;
-25;2;Ok so he needs me to infiltrate a certain ship and at midnight lower some ropes from the deck so he and his men can climb aboard the ship? Sure, no problem for me. Its my specialization. I just need a disguise and your gold can definitely get me one. <br><br>Just find the merchant that walks these streets. He is always at different places and likes to talk in riddles and rhymes.;0;;;;;;71;;;;
-26;;What color is the temple?;1;Green;;;;25;28;27;;;
+25;2;Ok so he needs me to infiltrate a certain ship and at midnight lower some ropes from the deck so he and his men can climb aboard the ship? Sure, no problem for me. Its my specialization. I just need a disguise and your gold can definitely get me one. <br><br>Just find the merchant that walks these streets. He is always at different places and likes to talk in riddles and rhymes.;0;;;;;24;71;;;;
+26;;What color is the temple?;1;Green;;;;71;28;27;;;
 27;2;I see no temple of that color here;0;;;;;;26;;;;
 28;3;Well hello there. You found me, what a scare. I’m shook but you look like you don’t care.<br>Is it trinkets you seek or maybe a potion? Or maybe one of these skin care lotions.<br>Or wait is it flowers or jewels you seek? You’re trying to court a fine lady this week?<br>Stop, don’t tell me. I know what you need. A fresh pair of pants, it sure look like you peed.<br>Don’t bother with jewels—you know I can tell — you’ll never get lucky my man, with that smell…;0;;;;;;29;;;;
 29;3;Oh just some bits and bobs;4;;1|2|3|4|5;;;;31;30;;;
@@ -37,17 +37,17 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 36;0;So let’s move. The masons of De Waag will show you the street to move forward to. <br><br><br><s=0.5><I>Remember: you never have to walk back in the direction you came from, or on a street you walked before.;0;;;;;;37;;;;
 37;0;Now in this street a young crew member of mine lives. Just turn port and move on until you meet his older brother. When you find his older brother you have to move and find god's old smithery <br><br><br> <s=0.5><i>Some translation from English to Dutch is required;0;;;;;;38;;;;
 38;0;If you have found god's old smithery move into that street but on the <c=red>opposite side</c> of the water.;0;;;;;;39;;;;
-39;0;Great in this street another Admiral lives. This bastard also took some of my ships. But most importantly these ships contained my rum!!! I want this bastards house burned down to the ground. Tell me his house number!;1;136;House number;10;;;40;40;;;
+39;0;Great, in this street another Admiral lives. This bastard also took some of my ships. But most importantly these ships contained my rum!!! I want this bastards house burned down to the ground. Tell me his house number!;1;136;House number;10;;;40;40;;;
 40;0;Alright keep moving along this street until you find a famous pirate. His gold will show you the direction of the next street to move into. If you have to walk across the street you have gone too far;0;;;;;;41;;;;
 41;;Checkpoint <br><br> Do you see this?;3;;https://github.com/GuidoOut/OutOutPrivacy/blob/main/raam.jpg?raw=true;;;;42;;;;
 42;4;Psst. Buddy. Yes you. Don’t look at that pub. You won’t find any rum there right now as they are closed. But you need some stuff? I got the best food and drinks money can buy. Believe me. If you had some of my drinks and food you will never feel the same again.;0;;;;;;43;;;;
-43;4;This is as fresh as it gets;4;;6|7|8;;;;44;44;44;;
+43;4;This is as fresh as it gets;4;;6|7|8;;;;44;47;47;;
 44;4;NO REFUNDS, EAT AT YOUR OWN RISK!;0;;;;;;48;;;;
 45;4;Yes it the best milk around. It’s one of a kind. The chunks are proof of that. What do you mean the smell makes you sick? Alright sure. Choose something else then.;0;;;;;;43;;;;
 46;4;Mmm this soup has all the nutrients one could need on the seas. Yes those sea slugs and seaweed flies are part of the soup. What do you mean that’s disgusting? Ok ok… I don’t want any bad kelp reviews. Choose something else.;0;;;;;;43;;;;
 47;4;Ok ok. I’m sorry mister fancy pants. Sorry that none of my products meet the <w>standards</w> you are looking for. Fine… be like that.;0;;;;;;48;;;;
-48;4;What’s that? You are actually looking for some poison? Well maybe my brother has something for you. He specializes in creative concoctions. Go down this street, onto the square. To find him listen to these words carefully:<br><br> ‘Two howl together but one barks alone. Follow the danger into a hole in the stone.’ There in the hole you will find him.”;0;;;;;48;49;;;;
-49;;Checkpoint <br><br> Do you see this?;3;;https://github.com/GuidoOut/OutOutPrivacy/blob/main/olifant.jpg?raw=true;;;49;50;;;;
+48;4;What’s that? You are actually looking for some poison? Well maybe my brother has something for you. He specializes in creative concoctions. Go down this street, onto the square. To find him listen to these words carefully:<br><br> ‘Two howl together but one barks alone. Follow the danger into a hole in the stone.’ There in the hole you will find him.”;0;;;;;;49;;;;
+49;;Checkpoint <br><br> Do you see this?;3;;https://github.com/GuidoOut/OutOutPrivacy/blob/main/olifant.jpg?raw=true;;;48;50;;;;
 50;5;Well look what the cat dragged in… What are you doing in these parts all alone? Don’t you know its dangerous for kids to be playing on the streets at these times? But now that you are here maybe I can offer you some goodies as any stranger does on these streets.;4;9;9;;;;51;70;;;
 51;0;Right thats it. Those poisoned cookies will be perfect to take that bird out.;0;;;;;;52;;;;
 52;;Checkpoint: All tasks are completed. Time to make up the balance and see how well you’ve served Gravy;3;;;;;;99;;;;
@@ -72,11 +72,15 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 71;2;He told me that to find him today, I would have to follow these instructions: <br><br> We come from the guild and are not guilty but gilded. We chase a rider that has lost his brother and is followed by his ghost. They ride towards the Temple and you can find me there. <br><br> Okay now go and get me a disguise. ;0;;;;;25;26;;;;
 72;0;Where are my cookies you fool?! Hrmph, you good for nothing barnacle…;0;;;;;;52;;;;
 73;0;What is this? I hear you didn’t obey some of my orders. Now don’t play dumb with me, you know what you did… How do you expect me to let you in my crew with disobedience like that! As punishment I have to send you to the bottom of the dungeon! Quickly move to the dungeon and we will speak again when my anger has cooled down.;0;;;;;;74;;;;
-74;;Checkpoint <br><br> When you reach the lions with the shields continue. ";3;;;;;73;75;;;;
+74;;"Checkpoint <br><br> When you reach the lions with the shields continue. ";3;;;;;73;75;;;;
 75;0;You are lucky that I am not in the city right now. I would’ve killed you right on the spot so you could join my crew… as an undead piece of crap. Now as punishment go find the eagle with the snakes. When you do, continue;0;;;;;74;76;;;;
 76;0;Good, you found them. The reason I brought you here is you need to look for a miracle in this street. Why? Cause you sure as hell need one right now.;1;Wafer;Miracle object;;;75;77;;;;
 77;0;See. If you disobey me ever again you will need a priest and a wafer very soon. And never forget that. You are lucky I am short on manpower and beside that slip up you have done well. Now come find me at my location and let’s have a party, drink rum and take a selfie.”;0;;;;;;78;;;;
 78;0;You have completed the adventure but Gravy could be prouder. If you are the first to reach Gravy, as punishment the runner up will get 40% of your treasure. Take a screenshot of this screen, go to the following location and take a selfie with Gravy, post both your photo and the screenshot in the group app. <br><br> (52.370429, 4.893486);0;;;;;;79;;;;
 79;0;WHAT THE HELL WERE YOU THINKING! All your intel was incorrect and my whole crew has died as a result! ;0;;;;;;80;;;;
-80;0;Reward? <j>REWARD!!!</j> The nerve of some people.<br><br>No way you get a chest of rewards. Maybe you can find someone that gives you some participation prize like they give to small kids, but not from me. I will have you keelhauled, on the spot with the most barnacles of my ship. You completed the run but did not answer any question correctly. As a result some other pirate will go away with the loot. You can still screenshot this screen and claim a participation prize at the venue.";0;;;;;;;;;;
+80;0;"Reward? <j>REWARD!!!</j> The nerve of some people. 
+
+No way you get a chest of rewards. Maybe you can find someone that gives you some participation prize like they give to small kids, but not from me. I will have you keelhauled, on the spot with the most barnacles of my ship.
+
+You completed the run but did not answer any question correctly. As a result some other pirate will go away with the loot. You can still screenshot this screen and claim a participation prize at the venue.";0;;;;;;;;;;
 999;Endings start at;53|55|61|73|79;;;;;;;;;;;
