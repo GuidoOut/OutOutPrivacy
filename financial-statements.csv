@@ -47,7 +47,7 @@ MessageID;Character;Dialogue;RequiresInput;Key;Placeholder;GoldReward;Reward (it
 46;4;Mmm this soup has all the nutrients one could need on the seas. Yes those sea slugs and seaweed flies are part of the soup. What do you mean that’s disgusting? Ok ok… I don’t want any bad kelp reviews. Choose something else.;0;;;;;;43;;;;
 47;4;Ok ok. I’m sorry mister fancy pants. Sorry that none of my products meet the <w>standards</w> you are looking for. Fine… be like that.;0;;;;;;48;;;;
 48;4;What’s that? You are actually looking for some poison? Well maybe my brother has something for you. He specializes in creative concoctions. Go down this street, onto the square. To find him listen to these words carefully:<br><br> ‘Two howl together but one barks alone. Follow the danger into a hole in the stone.’ There in the hole you will find him.”;0;;;;;;49;;;;
-49;;Checkpoint <br><br> Do you see this?;3;;https://github.com/GuidoOut/OutOutPrivacy/blob/main/olifant.jpg?raw=true;;;48;50;;;;
+49;;You entered the hole without fear or regret. You've reached the protectors of knowledge and rewards you will get.<br>When you find this, continue.;3;;https://github.com/GuidoOut/OutOutPrivacy/blob/main/olifant.jpg?raw=true;;;48;50;;;;
 50;5;Well look what the cat dragged in… What are you doing in these parts all alone? Don’t you know its dangerous for kids to be playing on the streets at these times? But now that you are here maybe I can offer you some goodies as any stranger does on these streets.;4;9;9;;;;51;70;;;
 51;0;Right thats it. Those poisoned cookies will be perfect to take that bird out.;0;;;;;;52;;;;
 52;;Checkpoint: All tasks are completed. Time to make up the balance and see how well you’ve served Gravy;3;;;;;;99;;;;
